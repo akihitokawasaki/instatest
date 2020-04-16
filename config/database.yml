@@ -1,0 +1,15 @@
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: tukareta_development
+
+production:
+  <<: *default
+  database: tukareta_production
+  username: tukareta
+  password: <%= ENV['TUKARETA_DATABASE_PASSWORD'] %>
