@@ -19,7 +19,14 @@
   <%= f.password_field :password %><br>
   <%= f.label :password_confirmation %>
   <%= f.password_field :password_confirmation %><br>
+  <%= f.label :image %>
+  <%= f.file_field :image %><br>
+  %= image_tag(@user.image.url) if @user.image && @user.image.url %> 
   <span class="btn btn-primary">
   <%= f.submit "Create my account" %>
   </span>
+
+   
+
+    
 <% end %>
