@@ -1,16 +1,16 @@
-current directory: /Users/jikijiu/workspace/tukareta/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20200414-63909-1ht8slh.rb extconf.rb
+current directory: /Users/jikijiu/workspace/tukareta2/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20200417-13004-14h6045.rb extconf.rb
 creating Makefile
 
-current directory: /Users/jikijiu/workspace/tukareta/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+current directory: /Users/jikijiu/workspace/tukareta2/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
 make "DESTDIR=" clean
 
-current directory: /Users/jikijiu/workspace/tukareta/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+current directory: /Users/jikijiu/workspace/tukareta2/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
 make "DESTDIR="
 compiling websocket_mask.c
 linking shared-object websocket_mask.bundle
 ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.Internal.sdk/usr/local/lib'
 
-current directory: /Users/jikijiu/workspace/tukareta/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+current directory: /Users/jikijiu/workspace/tukareta2/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20200414-63909-z1w6cm
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20200417-13004-499kyc
