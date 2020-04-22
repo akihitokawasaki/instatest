@@ -23,7 +23,8 @@ class BlogsController < ApplicationController
     end
   end
   def show
-    @blog = Blog.find(params[:id])   # 重複！
+    #@blog = Blog.find(params[:id])   # 重複！
+    @favorite = current_user.favorites.find_by(blog_id: @blog.id)
   end
   def edit
     @blog = Blog.find(params[:id])   # 重複！
